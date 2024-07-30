@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  
+}
+
+.navbar {
+  display: flex;              
+  justify-content: center;       
+  align-items: center;         
+  background-color: rgb(29,77,139);                   
+  top: 0;                                     
+  width: 100%;           
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar ul {
+  list-style-type: none;       
+  margin: 0;
+  padding: 0;
+  display: flex;               
+}
+
+.navbar a {
+  gap: 5px;
+  display: block;   
+  color: white;              
+  text-decoration: none;       
+  padding: 14px 16px;        
+  font-weight: bold;     
+  transition: background-color 0.3s ease;
+  display: flex;
+}
+
+.navbar a:hover, .navbar .active {
+  background-color: #113C73;
+}
+
+.big-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background-image: url('turismo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.big-text h1 {
+  color: white;
+  font-size: 48px;
+}
+
+.big-text form {
+  display: flex;
+}
+
+.big-text form input[type=text] {
+  position: relative;
+  border: none;
+  border-radius: 24px;
+  padding: 8px 16px;
+  width: 300px;
+  height: 36px;
+  font-size: 16px;
+  color: #2D384C;
+}
+
+.big-text form button {
+  top: 43.5%;
+  right: 40%;
+  position: absolute;
+  border: none;
+  background: transparent;
+}
+
+.disclaimer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245,247,249);
+  height: 100px;
+  width: 100%;
+  color: #5D6675;
+}
+
+.mainbox {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.destinos-atrativos {
+  margin: auto;
+  width: 800px;
+  gap: 100px;
+  padding: 8px 16px;
+  display: flex;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background: #F5F5F5;
+  border-radius: 3%;
+  margin-top: 1%;
+  margin-bottom: 10%;
+}
+
+.destino-turismo {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  text-align: justify;
+}
+
+.destino-mapa {
+  width: 400px;
+}
+
+.destino-mapa img{
+  width: 350px;
+  height: 250px;
+}
+
+.map {
+  width: 350px;
+  height: 250px;
+}
+
+footer {
+  color: white;
+  width: 100%;
+  background-color: #2C5FA1;
+  display: flex;
+  gap: 80px;
+  margin-bottom: 0;
+  bottom: 0;
+}
+
+footer img {
+  padding: 16px 24px;
+  height: 100px;
+}
+
+footer div a {
+  color: white;
+  text-decoration: none;
+}
